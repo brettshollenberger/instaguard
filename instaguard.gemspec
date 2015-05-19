@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Brett Cassette"]
   s.date = "2015-05-19"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Provide a default Guardfile, but let each of your developers use custom Guard configuration (e.g. their own Guard command)."
   s.email = "brett.shollenberger@gmail.com"
   s.executables = ["instaguard"]
   s.extra_rdoc_files = [
@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/brettshollenberger/instaguard"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.5"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Allow developers to use custom Guardfiles in your project"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
