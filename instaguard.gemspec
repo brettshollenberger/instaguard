@@ -17,16 +17,17 @@ Gem::Specification.new do |s|
   s.executables = ["instaguard"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "bin/instaguard",
+    "instaguard.gemspec",
     "lib/instaguard.rb",
     "lib/instaguard/guardfile.rb",
     "lib/instaguard/personal_guardfile.rb",
